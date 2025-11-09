@@ -1,10 +1,39 @@
-.App {
-  text-align: center;
+.nav-ul {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  align-items: center;
+  gap: 12px; 
+  background-color: skyblue;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-ul a{
+  color: #fff;         /* not 'white' */
+  text-decoration: none;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+.register{
+  margin-left: 30%;
+}
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 12px;
+  width: 300px;
+  border: 1px solid skyblue
+}
+.appbutton{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
 }
 
 @media (prefers-reduced-motion: no-preference) {

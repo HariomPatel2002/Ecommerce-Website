@@ -17,8 +17,12 @@
   width: 100%;
   background-color: skyblue;
 }
-.register{
+.register, .product{
   margin-left: 30%;
+}
+.login{
+  margin-top: 100px;
+  
 }
 .inputBox {
   display: block;
@@ -52,7 +56,35 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.invlaid-input{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+  font-size: 14px;
+}
+product-list{
+  text-align: center;
+  margin-top: 50px;
+  overflow: auto;
+  height: 300px;
+  overflow-y: auto;       /* vertical scroll */
+  border: 1px solid #ddd; /* optional */
+}
+.product-list .scroll-box {
+  height: 300px;          /* fixed height */
+  overflow-y: auto;       /* vertical scroll */
+  border: 1px solid #ddd; /* optional */
+}
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 190px;
+}
+.product-list li{
+  margin: 0;
+}
 .App-link {
   color: #61dafb;
 }
